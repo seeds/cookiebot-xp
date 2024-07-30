@@ -1,0 +1,135 @@
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### Gradle ###
+.gradle
+build/
+\.classpath
+\.xp/
+bin/
+.enonic
+
+docker/dev/xp-home/data/dump/*
+docker/dev/xp-home/data/export/*
+docker/dev/xp-home/repo/
+docker/dev/xp-home/logs
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+### WebStorm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+### Sass ###
+.sass-cache
+
+### Other excludes
+node_modules/
+xp/src/main/resources/assets/compiled/*
+xp/src/main/resources/assets/libs/*
+xp/src/main/resources/assets/css/*
+xp/src/main/resources/assets/js/*
+xp/src/main/resources/assets/js-src/*
+xp/src/main/resources/assets/images/*
+!xp/src/main/resources/assets/css/main.css
+!xp/src/main/resources/assets/js/main.js
+!xp/src/main/resources/assets/js-src/find-technologies-and-solutions.js
+!xp/src/main/resources/assets/js-src/technologies-and-solutions-cluster.js
+!xp/src/main/resources/assets/js-src/technologies-and-solutions-overview.js
+!xp/src/main/resources/assets/js-src/front-page.js
+!xp/src/main/resources/assets/js-src/market-overview.js
+!xp/src/main/resources/assets/js-src/reports-overview.js
+!xp/src/main/resources/assets/js-src/opportunities-overview.js
+!xp/src/main/resources/assets/js-src/market.js
+!xp/src/main/resources/assets/js-src/partner-overview.js
+!xp/src/main/resources/assets/js-src/login-and-register.js
+!xp/src/main/resources/assets/js-src/add-new-technology-and-solutions.js
+!xp/src/main/resources/assets/js-src/dashboard-technologies-and-solutions.js
+!xp/src/main/resources/assets/js-src/dashboard-draft.js
+!xp/src/main/resources/assets/js-src/dashboard-edit.js
+!xp/src/main/resources/assets/js-src/event-overview.js
+!xp/src/main/resources/assets/js-src/dashboard-layout.js
+!xp/src/main/resources/assets/js-src/dashboard-my-profile.js
+!xp/src/main/resources/assets/js-src/dashboard-company-profile.js
+!xp/src/main/resources/assets/js-src/dashboard-company-members.js
+!xp/src/main/resources/assets/js-src/event-registration-form.js
+!xp/src/main/resources/assets/js-src/event.js
+!xp/src/main/resources/assets/js-src/search.js
+!xp/src/main/resources/assets/js-src/related-technology-and-solutions.js
+!xp/src/main/resources/assets/css/modules/
+!xp/src/main/resources/assets/js/modules/
+!xp/src/main/resources/assets/js/components/
+!xp/src/main/resources/assets/libs/pdfobject
+!xp/src/main/resources/assets/libs/pdfobject/pdfobject.min.js

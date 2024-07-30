@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<mappings>
+	</mappings>
+
+	<form>
+		<field-set>
+			<label>Cookie Bot</label>
+			<items>
+				<input name="cookieBotId" type="TextLine">
+					<label>Cookie Bot Id</label>
+					<help-text>Enable cookie bot if the id is filled. Check the "cbid" in your script and paste here</help-text>
+					<occurrences minimum="0" maximum="1"/>
+					<config />
+				</input>
+				<input name="language" type="TextLine">
+					<label>Use custom language code</label>
+					<help-text>Enter a langugae code (for instance "en") for force the banner to use a language</help-text>
+					<occurrences minimum="0" maximum="1"/>
+					<config />
+				</input>
+			</items>
+		</field-set>
+	</form>
+
+	<processors>
+		<response-processor name="add-cookie-bot" order="1"/>
+	</processors>
+</site>

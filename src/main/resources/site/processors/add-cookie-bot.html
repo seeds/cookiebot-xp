@@ -1,0 +1,6 @@
+<div data-th-remove="tag">
+	<th:block data-th-fragment="cookiebot" th:if="${enableCookieBot}">
+		<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" th:attr="data-culture=${language},data-cbid=${cookieBotId}" data-blockingmode="auto" type="text/javascript">
+		</script>
+	</th:block>
+</div>

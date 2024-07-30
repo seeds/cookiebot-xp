@@ -1,0 +1,25 @@
+Other software licenses used by this product:
+
+		Bootstrap
+		MIT License
+		https://github.com/twbs/bootstrap/blob/master/LICENSE
+
+
+		Popper.js
+		MIT License
+		https://github.com/floating-ui/floating-ui/blob/master/LICENSE
+
+
+		JQuery
+		MIT License
+		https://jquery.com/license/
+
+
+		slick-carousel
+		MIT License
+		https://github.com/kenwheeler/slick/blob/master/LICENSE
+
+
+		rangeslider.js
+		MIT License
+		https://github.com/andreruffert/rangeslider.js/blob/develop/LICENSE.md
