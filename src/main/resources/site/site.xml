@@ -8,7 +8,7 @@
 			<label>Cookie Bot</label>
 			<items>
 				<input name="cookieBotId" type="TextLine">
-					<label>Cookie Bot Id</label>
+					<label>Cookiebot Id</label>
 					<help-text>Enable cookie bot if the id is filled. Check the "cbid" in your script and paste here</help-text>
 					<occurrences minimum="0" maximum="1"/>
 					<config />
